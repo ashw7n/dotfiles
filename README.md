@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# Mathias’s dotfiles copied and adapted for personal use
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
