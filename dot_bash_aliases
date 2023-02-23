@@ -1,5 +1,5 @@
-alias ps1a="PS1='\$ '"
-alias ps1b="PS1='\d \h \$ '"
+alias ps1a="export PS1='\$ '"
+alias ps1b="export PS1='\d \h \$ '"
 alias ps1c="export PS1='\u @ \W $ '"
 
 alias p="pwd"
@@ -44,5 +44,25 @@ alias kmini="k config view --minify"
 #Kind
 alias ki="kind"
 
-
+#Docker
 alias dc='docker-compose'
+alias drti='docker run -ti '
+
+#Chezmoi
+alias ch='chezmoi'
+
+# quick edit and load aliases file - alias for alias files itself
+alias alvim='chezmoi edit ~/.bash_aliases'
+alias alsrc='source ~/.bash_aliases'
+
+
+#Git
+alias gs="git status"
+alias gl="git log -3"
+#git log short
+alias gls="git log -1"
+#git log long
+alias gl="git log -3"
+#git log long
+alias gll="git log -7"
+
