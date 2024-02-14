@@ -66,3 +66,9 @@ alias gl="git log -3"
 #git log long
 alias gll="git log -7"
 
+alias goapta='cd ~/projects/apta.app/aptakarin'
+
+
+#https://askubuntu.com/questions/1096930/sudo-apt-update-error-release-file-is-not-yet-valid
+alias sync_clock='sudo hwclock --hctosys '
+alias syncclock='sudo hwclock -s '
